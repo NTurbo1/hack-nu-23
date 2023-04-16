@@ -1,0 +1,24 @@
+.service-box {
+  width: 250px;
+  height: 200px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+}
+.service-box .service-box-header {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(188, 188, 188);
+}
+.service-box .service-box-buttons {
+  width: 100%;
+  height: 50px;
+}
+.service-box .service-box-buttons .edit-btn {
+  height: 100%;
+  background-color: green;
+}
+.service-box .service-box-buttons .delete-btn {
+  height: 100%;
+  background-color: red;
+}/*# sourceMappingURL=service-style.css.map */

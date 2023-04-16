@@ -1,0 +1,102 @@
+@import './sideBar-style.css';
+@import './service-style.css';
+@import './clientPage-style.css';
+@import './orderPage-style.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, #root {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#admin-page {
+    width: 100vw;
+    display: flex;
+    min-height: 100vh;
+}
+
+.content-div {
+    flex-grow: 1;
+    background-color: white;
+    padding: 100px;
+
+    .page-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+        .page-title {
+            font-size: 30px;
+            font-weight: bold;
+            margin-right: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .create-btn {
+            height: 35px;
+            width: 100px;
+            background-color: #ccd3db;
+            border-style: none;
+            border-radius: 20px;
+            font-size: 17px;
+        }
+    }
+
+    .info-table {
+        th, tr {
+            min-width: 100px;
+            height: 50px;
+            text-align: start;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .row-2 {
+            background-color: #ebf2f9;
+        }
+
+        .name-header {
+            width: 250px;
+        }
+
+        .phone-header {
+            width: 150px;
+        }
+
+        .edit-header, .delete-header, .password-header {
+            width: 200px;
+        }
+
+        .edit-btn {
+            width: 100px;
+            background-color: #ccd3db;
+            border-style: none;
+            border-radius: 20px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+
+            a {
+                color: black;
+            }
+        }
+
+        .delete-btn, .order-accept-btn {
+            width: 100px;
+            background-color: #ccd3db;
+            border-style: none;
+            border-radius: 20px;
+            height: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+        }
+    }
+}

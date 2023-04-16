@@ -1,0 +1,31 @@
+@import './sideBar-style.css';
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, #root {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#operator-page {
+    width: 100vw;
+    display: flex;
+    min-height: 100vh;
+
+}
+
+#operator-title-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+    #operator-title {
+        color: white;
+        font-size: 30px;
+    }
+}

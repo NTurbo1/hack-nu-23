@@ -1,0 +1,31 @@
+.order-page {
+  height: 100vh;
+  width: 100vw;
+  padding: 40px 300px;
+  background-color: white;
+}
+
+#documents-heading {
+  text-align: center;
+}
+
+.order-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-definition {
+  margin-bottom: 20px;
+}
+
+.order-number, .order-definition {
+  text-align: center;
+}
+
+.reciever-info {
+  margin-top: 20px;
+}
+
+#receiver-heading {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=orderPage-style.css.map */
